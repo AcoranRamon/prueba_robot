@@ -1,0 +1,29 @@
+.div-subcaja-1 {
+    border: 1px solid orchid;
+}
+
+.div-subcaja-2 {
+    border: 1px solid lightblue;
+}
+
+.div-subcaja-3 {
+    border: 1px solid orange;
+}
+
+.div-subcaja-1,
+.div-subcaja-2,
+.div-subcaja-3 {
+    text-align: center;
+    margin: 1px;
+    width: 800px;
+}
+
+/*aquí se empiezan a aplicar el estilo de flexbox al contenedor*/
+
+.div-caja-1 {
+    border: 5px groove gold;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
